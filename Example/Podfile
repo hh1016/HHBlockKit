@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HHBlockKit_Example' do
+  pod 'HHBlockKit', :path => '../'
+
+  target 'HHBlockKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
