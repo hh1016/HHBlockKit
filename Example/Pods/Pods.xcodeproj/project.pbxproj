@@ -72,7 +72,7 @@
 		52DAB41FEEAF23398C5A5C6D8458DDD4 /* Pods-HHBlockKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHBlockKit_Tests.modulemap"; sourceTree = "<group>"; };
 		52E00702083F6C34D8A2720C6E491A5A /* UITableView+HHBlockTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+HHBlockTableView.m"; path = "HHBlockKit/Classes/UITableView+HHBlockTableView.m"; sourceTree = "<group>"; };
 		5B413EEF0323D97312F154164165D3C9 /* Pods-HHBlockKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHBlockKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5EBE9F3DCC56A37D486417115B066355 /* HHBlockKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HHBlockKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		5EBE9F3DCC56A37D486417115B066355 /* HHBlockKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HHBlockKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6116EB62F6DF28582A10E43FC5E0EE42 /* UIImageView+HHBlockImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HHBlockImageView.h"; path = "HHBlockKit/Classes/UIImageView+HHBlockImageView.h"; sourceTree = "<group>"; };
 		6536DEE2E55A7DDE5FBA2D90218BBA2E /* UILabel+HHBlockLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+HHBlockLabel.h"; path = "HHBlockKit/Classes/UILabel+HHBlockLabel.h"; sourceTree = "<group>"; };
 		6BE72B4EDF99475A4CEC34F3D03B61BF /* UIImageView+HHBlockImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HHBlockImageView.m"; path = "HHBlockKit/Classes/UIImageView+HHBlockImageView.m"; sourceTree = "<group>"; };
@@ -81,12 +81,12 @@
 		762140D9F364B9EBE7C043F408477FCA /* Pods-HHBlockKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HHBlockKit_Example"; path = Pods_HHBlockKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7853D1279185DAC0805EBA7A599C0360 /* Pods-HHBlockKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHBlockKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		7DB8B8BBBA7E4D1A5A069542B8F52A80 /* Pods-HHBlockKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HHBlockKit_Tests"; path = Pods_HHBlockKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80F0C8962611C64CAE17A6360B9BAA45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		80F0C8962611C64CAE17A6360B9BAA45 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		858B011A4CF3E9C36F695A282083CF2E /* Pods-HHBlockKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHBlockKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		88F4AFA8EB0239EC115A5214AA979D22 /* UITextView+HHBlockTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+HHBlockTextView.h"; path = "HHBlockKit/Classes/UITextView+HHBlockTextView.h"; sourceTree = "<group>"; };
 		96224AAAA6B2D2520A5A9F95FC59A116 /* Pods-HHBlockKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHBlockKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		99A4250159E7A92F90E683401138789E /* Pods-HHBlockKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HHBlockKit_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B803C99B058B4C4685D5CDFE80A95050 /* HHBlockKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHBlockKit.release.xcconfig; sourceTree = "<group>"; };
 		C142783DADDEEDDED72013E39ABDAE26 /* Pods-HHBlockKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHBlockKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C22D02B50DDDF09B474B475B306A8A36 /* Pods-HHBlockKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHBlockKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		E214C2B50D5BE7F7BF116B85A68D5361 /* UILabel+HHBlockLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+HHBlockLabel.m"; path = "HHBlockKit/Classes/UILabel+HHBlockLabel.m"; sourceTree = "<group>"; };
 		E8D759088CD6DE08DB44CCC8FCC668A5 /* UITextField+HHBlockTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+HHBlockTextField.h"; path = "HHBlockKit/Classes/UITextField+HHBlockTextField.h"; sourceTree = "<group>"; };
 		EDC3CEFECCB3C2E9E790C6FD05C8B6C6 /* Pods-HHBlockKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHBlockKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F0CD04A2CB4FFDDF7D795B05D7580884 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F0CD04A2CB4FFDDF7D795B05D7580884 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F569AB6AB6B94920BE2451384FAD8AE9 /* UIButton+HHBlockButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+HHBlockButton.h"; path = "HHBlockKit/Classes/UIButton+HHBlockButton.h"; sourceTree = "<group>"; };
 		F838EC8BEF55CD867A95A3D15B6470CD /* UITextField+HHBlockTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+HHBlockTextField.m"; path = "HHBlockKit/Classes/UITextField+HHBlockTextField.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -748,7 +748,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

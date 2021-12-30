@@ -1,9 +1,9 @@
 {
   "name": "HHBlockKit",
   "version": "0.1.0",
-  "summary": "A short description of HHBlockKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hh1016/HHBlockKit",
+  "summary": "基于UIKit封装的基础控件库，使用链式编程思想+block对常用的控件进行封装.",
+  "description": "基于UIKit封装的基础控件库，使用链式编程思想+block对常用的控件进行封装,包含UIView,UILabel,UIButton,UITextFiled,UITextView,UITableView的封装",
+  "homepage": "https://gitee.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "hh1016": "17735102867@163.com"
   },
   "source": {
-    "git": "https://github.com/hh1016/HHBlockKit.git",
+    "git": "https://gitee.com/hh1016/hhblockkit.git",
     "tag": "0.1.0"
   },
   "platforms": {

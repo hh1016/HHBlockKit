@@ -227,28 +227,7 @@
         return strongSelf;
     };
 }
-/**
- imagePlacement    iOS 15以上枚举值 image和title 布局方向
- padding           间距
- */
-- (HH_ImageDirectionalRectIOS13Later)hh_ImageDirectionalRectIOS15Later API_AVAILABLE(ios(15.0)){
-    WS;
-    if (@available(iOS 15.0, *)) {
-        return ^(NSDirectionalRectEdge imagePlacement,CGFloat padding){
-            SS;
-            UIButtonConfiguration *con = [UIButtonConfiguration plainButtonConfiguration];
-            con.imagePadding = padding;
-            con.imagePlacement = imagePlacement;
-            [strongSelf setConfiguration:con];
-            return strongSelf;
-        };
-    }else{
-        return ^(NSDirectionalRectEdge imagePlacement,CGFloat padding){
-            SS;
-            return strongSelf;
-        };
-    }
-}
+
     
 - (void)buttonCliced:(UIButton *)but{
     HHButtonClicked block = objc_getAssociatedObject(self, _cmd);

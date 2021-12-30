@@ -49,7 +49,6 @@
         .hh_addTarget(self,@selector(butClicked))
         .hh_imageColorNormal(@"img_feedback_icon");
     if (@available(iOS 15,*)) {
-        but.hh_ImageDirectionalRectIOS15Later(NSDirectionalRectEdgeTop,20);
     }else{
         but.hh_ImageDirectionalRect(HHImagePositionTop,20);
     };

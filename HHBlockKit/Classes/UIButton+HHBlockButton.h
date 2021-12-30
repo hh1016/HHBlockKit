@@ -42,8 +42,6 @@ typedef UIButton *_Nullable (^HH_AddTarget)(UIViewController *viewController,SEL
 
 typedef UIButton *_Nullable (^HH_ImageDirectionalRect)(HHImagePosition position,CGFloat padding);
 
-API_AVAILABLE(ios(13.0))
-typedef UIButton *_Nullable (^HH_ImageDirectionalRectIOS13Later)(NSDirectionalRectEdge imagePlacement,CGFloat padding);
 
 
 typedef void (^HHButtonClicked)(UIButton *__weak button);
@@ -72,11 +70,7 @@ typedef void (^HHButtonClicked)(UIButton *__weak button);
 @property (nonatomic,copy,readonly) HH_ContentVerticalAlignment hh_contentVerticalAlignment;
 @property (nonatomic,copy,readonly) HH_AddTarget hh_addTarget;
 @property (nonatomic,copy,readonly) HH_ImageDirectionalRect hh_ImageDirectionalRect;
-///**
-// imagePlacement    iOS 15以上枚举值 image和title 布局方向
-// padding           间距
-// */
-@property (nonatomic,copy,readonly) HH_ImageDirectionalRectIOS13Later hh_ImageDirectionalRectIOS15Later API_AVAILABLE(ios(13.0));
+
 - (void)hh_buttonClicked:(HHButtonClicked)buttonClickedBlock;
 
 @end
