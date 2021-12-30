@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HHBlockKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = '基于UIKit封装的基础控件库，使用链式编程思想+block对常用的控件进行封装.'
 
   s.description      = "基于UIKit封装的基础控件库，使用链式编程思想+block对常用的控件进行封装,包含UIView,UILabel,UIButton,UITextFiled,UITextView,UITableView的封装"
