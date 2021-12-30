@@ -1,0 +1,22 @@
+{
+  "name": "HHBlockKit",
+  "version": "0.1.0",
+  "summary": "A short description of HHBlockKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hh1016/HHBlockKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hh1016": "17735102867@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hh1016/HHBlockKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HHBlockKit/Classes/**/*"
+}

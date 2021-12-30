@@ -1,0 +1,16 @@
+PODS:
+  - HHBlockKit (0.1.0)
+
+DEPENDENCIES:
+  - HHBlockKit (from `../`)
+
+EXTERNAL SOURCES:
+  HHBlockKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HHBlockKit: 4cefbdd85c782b888355ed7e74187c9aa768fc07
+
+PODFILE CHECKSUM: 769d9c73e6b56013f224ea94b6174863f8191b15
+
+COCOAPODS: 1.11.2

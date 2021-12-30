@@ -1,0 +1,6 @@
+framework module Pods_HHBlockKit_Tests {
+  umbrella header "Pods-HHBlockKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

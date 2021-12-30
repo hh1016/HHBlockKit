@@ -1,0 +1,6 @@
+framework module HHBlockKit {
+  umbrella header "HHBlockKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
