@@ -229,6 +229,7 @@
 }
 
     
+    
 - (void)buttonCliced:(UIButton *)but{
     HHButtonClicked block = objc_getAssociatedObject(self, _cmd);
     if (block) {
@@ -242,5 +243,30 @@
         [self addTarget:self action:@selector(buttonCliced:) forControlEvents:UIControlEventTouchUpInside];
     }
 }
+
+/**
+ imagePlacement    iOS 15以上枚举值 image和title 布局方向
+ padding           间距
+ */
+//API_AVAILABLE(ios(15.0))
+- (HH_ImageDirectionalRectIOS15Later)hh_ImageDirectionalRectIOS15Later API_AVAILABLE(ios(15.0)){
+    WS;
+    if (@available(iOS 15.0, *)) {
+        return ^(NSDirectionalRectEdge imagePlacement,CGFloat padding){
+            SS;
+            UIButtonConfiguration *con = [UIButtonConfiguration plainButtonConfiguration];
+            con.imagePadding = padding;
+            con.imagePlacement = imagePlacement;
+            [strongSelf setConfiguration:con];
+            return strongSelf;
+        };
+    }else{
+        return ^(NSDirectionalRectEdge imagePlacement,CGFloat padding){
+            SS;
+            return strongSelf;
+        };
+    }
+}
+
 
 @end

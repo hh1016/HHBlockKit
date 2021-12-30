@@ -1,6 +1,6 @@
 {
   "name": "HHBlockKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "基于UIKit封装的基础控件库，使用链式编程思想+block对常用的控件进行封装.",
   "description": "基于UIKit封装的基础控件库，使用链式编程思想+block对常用的控件进行封装,包含UIView,UILabel,UIButton,UITextFiled,UITextView,UITableView的封装",
   "homepage": "https://gitee.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://gitee.com/hh1016/hhblockkit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
