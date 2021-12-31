@@ -3,13 +3,15 @@
   基于UIKit封装的基础控件库，使用链式编程思想对常用的控件进行封装,包含UIView,UILabel,UIButton,UITextFiled,UITextView,UITableView的封装
 
 ## 安装
-'''
+```
 pod 'HHBlockKit'
 或者是  pod 'HHBlockKit',:git => 'https://github.com/hh1016/HHBlockKit.git' 
 或者是  pod 'HHBlockKit',:git => 'https://gitee.com/hh1016/hhblockkit.git'  // 这个是码云的地址
-'''
+```
+
 ## 使用方式
-UIView的使用
+#### UIView的使用
+```
   UIView *view = [[UIView alloc]init];
   [self.view addSubview:view];
    view.hh_frame(CGRectMake(50, 100, 100, 100))
@@ -17,7 +19,9 @@ UIView的使用
        .hh_cornerRadius(10)
        .hh_borderColor(UIColor.redColor)
        .hh_borderWidth(1);
-UILabel的使用
+```
+#### UILabel的使用
+```
   UILabel *label = [[UILabel alloc]init];
   [self.view addSubview:label];
   label.hh_frame(CGRectMake(50, 250, 300, 50))
@@ -29,7 +33,9 @@ UILabel的使用
         .hh_borderColor(UIColor.redColor);  
  还封装了其他属性，这里不一一列举了，用的时候自己查   ![image](https://user-images.githubusercontent.com/18042580/147797548-32b006a4-1dc7-4ee0-9b0f-b9ba1a41ae2e.png)
  .hh_xxxx()括号中会有参数的提示
- UIButton 的使用
+``` 
+#### UIButton 的使用
+```
      UIButton *but = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:but];
     but.hh_frame(CGRectMake(50, 350, 100, 100))
@@ -58,15 +64,17 @@ UILabel的使用
     [but hh_buttonClicked:^(UIButton * _Nonnull button) {
         NSLog(@"按钮点击了 ---- ");
     }];
-    
-UIImageView的使用
+```    
+#### UIImageView的使用
+```
     UIImageView *imageView = [[UIImageView alloc]init];
     [self.view addSubview:imageView];
     imageView.hh_frame(CGRectMake(200, 350, 100, 100))
         .hh_image(@"qyCard_already")
         .hh_cornerRadius(5);
-
-UItextFiled的使用
+```
+#### UItextFiled的使用
+```
      UITextField *tf = [[UITextField alloc]init];
     [self.view addSubview:tf];
     tf.hh_frame(CGRectMake(50, 500, 300, 50))
@@ -119,9 +127,9 @@ UItextFiled的使用
         [textFiled resignFirstResponder];
         return YES;
     };
-
-UITableView 的使用
-
+```
+#### UITableView 的使用
+```
     UITableView *tableView = [[UITableView alloc]initWithFrame:CGRectZero style:UITableViewStylePlain];
     [self.view addSubview:tableView];
     // 属性的使用
@@ -147,4 +155,4 @@ UITableView 的使用
         view.hh_backgroundColor(UIColor.cyanColor);
         return view;
     };
-    
+```
