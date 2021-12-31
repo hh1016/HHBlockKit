@@ -31,9 +31,11 @@ pod 'HHBlockKit'
         .hh_textAlignment(NSTextAlignmentCenter)
         .hh_borderWidth(1)
         .hh_borderColor(UIColor.redColor);  
- 还封装了其他属性，这里不一一列举了，用的时候自己查   ![image](https://user-images.githubusercontent.com/18042580/147797548-32b006a4-1dc7-4ee0-9b0f-b9ba1a41ae2e.png)
+ 还封装了其他属性，这里不一一列举了，用的时候自己查 
  .hh_xxxx()括号中会有参数的提示
 ``` 
+![image](https://user-images.githubusercontent.com/18042580/147798928-c5e2e198-5b04-4d18-92ba-cf8104d4d9a4.png)
+
 #### UIButton 的使用
 ```
      UIButton *but = [UIButton buttonWithType:UIButtonTypeCustom];
