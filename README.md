@@ -3,9 +3,11 @@
   基于UIKit封装的基础控件库，使用链式编程思想对常用的控件进行封装,包含UIView,UILabel,UIButton,UITextFiled,UITextView,UITableView的封装
 
 ## 安装
+'''
 pod 'HHBlockKit'
-或者是  pod 'HHBlockKit',:git => 'https://gitee.com/hh1016/hhblockkit.git' 
+或者是  pod 'HHBlockKit',:git => 'https://github.com/hh1016/HHBlockKit.git' 
 或者是  pod 'HHBlockKit',:git => 'https://gitee.com/hh1016/hhblockkit.git'  // 这个是码云的地址
+'''
 ## 使用方式
 UIView的使用
   UIView *view = [[UIView alloc]init];
