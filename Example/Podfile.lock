@@ -1,5 +1,5 @@
 PODS:
-  - HHBlockKit (0.1.1)
+  - HHBlockKit (0.1.3)
 
 DEPENDENCIES:
   - HHBlockKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HHBlockKit: c79b646e9948f4837a5085941f689635bb9fa6de
+  HHBlockKit: ddcc88fd2381252be23c401d7d8200fe605bd764
 
 PODFILE CHECKSUM: 769d9c73e6b56013f224ea94b6174863f8191b15
 

@@ -18,6 +18,8 @@
 #import "UITextField+HHBlockTextField.h"
 #import "UITextView+HHBlockTextView.h"
 #import "UITableView+HHBlockTableView.h"
+#import "UICollectionView+HHBlockCollectionView.h"
+#import "UICollectionViewFlowLayout+HHCollectionViewFlowLayout.h"
 #import "HHMacro.h"
 
 #endif /* HHBlockHeader_h */

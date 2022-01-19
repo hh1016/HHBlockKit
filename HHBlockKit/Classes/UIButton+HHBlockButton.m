@@ -105,7 +105,7 @@
     };
 }
 
-- (HH_ImageColorNormal)hh_imageColorNormal{
+- (HH_ImageNormal)hh_imageNormal{
     WS;
     return ^(NSString *imageString){
         SS;
@@ -113,7 +113,7 @@
         return strongSelf;
     };
 }
-- (HH_ImageColorSelected)hh_imageColorSelected{
+- (HH_ImageSelected)hh_imageSelected{
     WS;
     return ^(NSString *imageString){
         SS;

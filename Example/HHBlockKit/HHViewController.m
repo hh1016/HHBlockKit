@@ -23,20 +23,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     UIView *view = [[UIView alloc]init];
     [self.view addSubview:view];
     view.hh_frame(CGRectMake(50, 100, 100, 100))
         .hh_backgroundColor(UIColor.cyanColor)
-        .hh_cornerRadius(10);
+        .hh_cornerRadius(10)
+        .hh_borderColor(UIColor.redColor)
+        .hh_borderWidth(1);
 
     UILabel *label = [[UILabel alloc]init];
     [self.view addSubview:label];
     label.hh_frame(CGRectMake(50, 250, 300, 50))
         .hh_backgroundColor(UIColor.cyanColor)
-        .hh_text(@"label3")
+        .hh_text(@"这是一个label")
         .hh_systemFont(30)
-        .hh_textAlignment(NSTextAlignmentCenter);
-    
+        .hh_textAlignment(NSTextAlignmentCenter)
+        .hh_borderWidth(1)
+        .hh_borderColor(UIColor.redColor);
+
     UIButton *but = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:but];
     but.hh_frame(CGRectMake(50, 350, 100, 100))
@@ -47,7 +52,7 @@
         .hh_cornerRadius(10)
         .hh_masksToBounds(YES)
         .hh_addTarget(self,@selector(butClicked))
-        .hh_imageColorNormal(@"img_feedback_icon");
+        .hh_imageNormal(@"hh_icon");
     if (@available(iOS 15,*)) {
         but.hh_ImageDirectionalRectIOS15Later(NSDirectionalRectEdgeTop,10);
     }else{
@@ -66,7 +71,6 @@
 
     UITextField *tf = [[UITextField alloc]init];
     [self.view addSubview:tf];
-    
     tf.hh_frame(CGRectMake(50, 500, 300, 50))
         .hh_placeholderTextColor(@"请输入汉子",UIColor.cyanColor)
         .hh_textColor(UIColor.redColor)

@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57059D5527858D8B00FCDC77 /* HHThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57059D5427858D8B00FCDC77 /* HHThirdVC.m */; };
 		5744B5A2277C9A7400842014 /* HHMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744B59D277C9A7300842014 /* HHMyVC.m */; };
 		5744B5A3277C9A7400842014 /* HHTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744B59F277C9A7400842014 /* HHTableViewCell.m */; };
 		5744B5A4277C9A7400842014 /* HHFirendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744B5A0277C9A7400842014 /* HHFirendVC.m */; };
+		5779E13B278F21FC00317E2A /* HHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5779E139278F21FC00317E2A /* HHCollectionViewCell.m */; };
+		5779E13C278F21FC00317E2A /* HHCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5779E13A278F21FC00317E2A /* HHCollectionViewCell.xib */; };
 		5EFA9F8DDF9F91CAD1B60A8B /* Pods_HHBlockKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544E99F29BF53795CA4941A4 /* Pods_HHBlockKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -47,12 +50,17 @@
 		3B08EFE77A9B26E599742E47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		544E99F29BF53795CA4941A4 /* Pods_HHBlockKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHBlockKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D8F863C59A0048FBA54AE6 /* Pods_HHBlockKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHBlockKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57059D5327858D8B00FCDC77 /* HHThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHThirdVC.h; sourceTree = "<group>"; };
+		57059D5427858D8B00FCDC77 /* HHThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHThirdVC.m; sourceTree = "<group>"; };
 		5744B59C277C9A7300842014 /* HHFirendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHFirendVC.h; sourceTree = "<group>"; };
 		5744B59D277C9A7300842014 /* HHMyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMyVC.m; sourceTree = "<group>"; };
 		5744B59E277C9A7400842014 /* HHTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTableViewCell.h; sourceTree = "<group>"; };
 		5744B59F277C9A7400842014 /* HHTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTableViewCell.m; sourceTree = "<group>"; };
 		5744B5A0277C9A7400842014 /* HHFirendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHFirendVC.m; sourceTree = "<group>"; };
 		5744B5A1277C9A7400842014 /* HHMyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMyVC.h; sourceTree = "<group>"; };
+		5779E138278F21FC00317E2A /* HHCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHCollectionViewCell.h; sourceTree = "<group>"; };
+		5779E139278F21FC00317E2A /* HHCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHCollectionViewCell.m; sourceTree = "<group>"; };
+		5779E13A278F21FC00317E2A /* HHCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HHCollectionViewCell.xib; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HHBlockKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHBlockKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +156,11 @@
 				6003F5A6195388D20070C39A /* HHViewController.m */,
 				5744B59C277C9A7300842014 /* HHFirendVC.h */,
 				5744B5A0277C9A7400842014 /* HHFirendVC.m */,
+				57059D5327858D8B00FCDC77 /* HHThirdVC.h */,
+				57059D5427858D8B00FCDC77 /* HHThirdVC.m */,
+				5779E138278F21FC00317E2A /* HHCollectionViewCell.h */,
+				5779E139278F21FC00317E2A /* HHCollectionViewCell.m */,
+				5779E13A278F21FC00317E2A /* HHCollectionViewCell.xib */,
 				5744B5A1277C9A7400842014 /* HHMyVC.h */,
 				5744B59D277C9A7300842014 /* HHMyVC.m */,
 				5744B59E277C9A7400842014 /* HHTableViewCell.h */,
@@ -293,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				5779E13C278F21FC00317E2A /* HHCollectionViewCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -379,9 +393,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5779E13B278F21FC00317E2A /* HHCollectionViewCell.m in Sources */,
 				5744B5A4277C9A7400842014 /* HHFirendVC.m in Sources */,
 				6003F59E195388D20070C39A /* HHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HHViewController.m in Sources */,
+				57059D5527858D8B00FCDC77 /* HHThirdVC.m in Sources */,
 				5744B5A2277C9A7400842014 /* HHMyVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				5744B5A3277C9A7400842014 /* HHTableViewCell.m in Sources */,

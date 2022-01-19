@@ -13,6 +13,8 @@
 #import "HHBlockHeader.h"
 #import "HHMacro.h"
 #import "UIButton+HHBlockButton.h"
+#import "UICollectionView+HHBlockCollectionView.h"
+#import "UICollectionViewFlowLayout+HHCollectionViewFlowLayout.h"
 #import "UIImageView+HHBlockImageView.h"
 #import "UILabel+HHBlockLabel.h"
 #import "UITableView+HHBlockTableView.h"

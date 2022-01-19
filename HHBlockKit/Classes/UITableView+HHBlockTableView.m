@@ -248,7 +248,7 @@ static void *HHBlockReuseIdentifier = &HHBlockReuseIdentifier;
     return objc_getAssociatedObject(self, HHBlockDidSelectRowAtIndexPath);
 }
 
-#pragma mark - uitableViewDataSourceDelegate
+#pragma mark - UITableViewDataSourceDelegate
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     

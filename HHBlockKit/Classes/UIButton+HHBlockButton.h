@@ -30,8 +30,8 @@ typedef UIButton *_Nullable (^HH_TextSelected)(NSString *textString);
 
 typedef UIButton *_Nullable (^HH_TextColorNormal)(UIColor *textColor);
 typedef UIButton *_Nullable (^HH_TextColorSelected)(UIColor *textSelectColor);
-typedef UIButton *_Nullable (^HH_ImageColorNormal)(NSString *imageString);
-typedef UIButton *_Nullable (^HH_ImageColorSelected)(NSString *imageSelectString);
+typedef UIButton *_Nullable (^HH_ImageNormal)(NSString *imageString);
+typedef UIButton *_Nullable (^HH_ImageSelected)(NSString *imageSelectString);
 typedef UIButton *_Nullable (^HH_BackgroundImageNormal)(NSString *imageString);
 
 typedef UIButton *_Nullable (^HH_BackgroundImageSelected)(NSString *imageSelectString);
@@ -64,8 +64,8 @@ typedef void (^HHButtonClicked)(UIButton *__weak button);
 @property (nonatomic,copy,readonly) HH_TextSelected hh_textSelected;
 @property (nonatomic,copy,readonly) HH_TextColorNormal hh_textColorNormal;
 @property (nonatomic,copy,readonly) HH_TextColorSelected hh_textColorSelected;
-@property (nonatomic,copy,readonly) HH_ImageColorNormal hh_imageColorNormal;
-@property (nonatomic,copy,readonly) HH_ImageColorSelected hh_imageColorSelected;
+@property (nonatomic,copy,readonly) HH_ImageNormal hh_imageNormal;
+@property (nonatomic,copy,readonly) HH_ImageSelected hh_imageSelected;
 @property (nonatomic,copy,readonly) HH_BackgroundImageNormal hh_backgroundImageNormal;
 @property (nonatomic,copy,readonly) HH_BackgroundImageSelected hh_backgroundImageSelected;
 @property (nonatomic,copy,readonly) HH_NumberOfLines hh_numberOfLines;
